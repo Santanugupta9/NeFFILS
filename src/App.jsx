@@ -37,7 +37,7 @@ export default function App() {
 📌 License Type: ${licenseType}
 📞 Phone: ${phone}`;
 
-    const whatsappUrl = `https://wa.me/9812218717?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/9845808478?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
 
@@ -289,14 +289,14 @@ export default function App() {
             <div>
               <h5 className="text-white font-bold mb-4 uppercase text-sm tracking-widest">Contact Information</h5>
               <div className="space-y-3">
-                <p className="flex items-center gap-3"><PhoneCall size={18} /> +977-9812218717</p>
+                <p className="flex items-center gap-3"><PhoneCall size={18} /> +977-9845808478</p>
                 <p className="flex items-center gap-3"><Globe size={18} /> Birgunj, Nepal</p>
               </div>
             </div>
             <div className="bg-white/5 p-6 rounded-2xl border border-white/10">
               <p className="text-white font-bold mb-2">Need Help Now?</p>
               <p className="text-sm mb-4">Click below to start a WhatsApp chat with our lead consultant.</p>
-              <a href="https://wa.me/9812218717" className="inline-block bg-[#25D366] text-white px-6 py-2 rounded-lg font-bold hover:bg-[#128C7E] transition">
+              <a href="https://wa.me/9845808478" className="inline-block bg-[#25D366] text-white px-6 py-2 rounded-lg font-bold hover:bg-[#128C7E] transition">
                 Chat on WhatsApp
               </a>
             </div>
